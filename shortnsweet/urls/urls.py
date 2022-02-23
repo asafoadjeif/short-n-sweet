@@ -1,10 +1,11 @@
 from django.urls import path
 
-from . import views
+from .views import home_view, redirect_url_view
 
 appname = "shortnsweet"
 
-urlpattens = [
-    path('', views.home_view, name='home')
+urlpatterns = [
+    path('', home_view, name='home'),
+    path('<str:shortened_part>', redirect_url_view, name='redirect')
 
 ]
