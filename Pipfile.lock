@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b802b25c48742047d97f6b01cce753822a16d3f650e2cff05250eed511d61c72"
+            "sha256": "69bf99f3b6b346b6b0e1e47633fca661a5624f0b75ef5d721a9a4473c5db2a59"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.10"
+            "python_version": "3.9"
         },
         "sources": [
             {
@@ -32,6 +32,14 @@
             "index": "pypi",
             "version": "==4.0.2"
         },
+        "gunicorn": {
+            "hashes": [
+                "sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e",
+                "sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8"
+            ],
+            "index": "pypi",
+            "version": "==20.1.0"
+        },
         "numpy": {
             "hashes": [
                 "sha256:03ae5850619abb34a879d5f2d4bb4dcd025d6d8fb72f5e461dae84edccfe129f",
@@ -57,6 +65,14 @@
             "index": "pypi",
             "version": "==1.22.2"
         },
+        "setuptools": {
+            "hashes": [
+                "sha256:2347b2b432c891a863acadca2da9ac101eae6169b1d3dfee2ec605ecd50dbfe5",
+                "sha256:e4f30b9f84e5ab3decf945113119649fec09c1fc3507c6ebffec75646c56e62b"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==60.9.3"
+        },
         "sqlparse": {
             "hashes": [
                 "sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae",
@@ -65,13 +81,13 @@
             "markers": "python_version >= '3.5'",
             "version": "==0.4.2"
         },
-        "tzdata": {
+        "whitenoise": {
             "hashes": [
-                "sha256:3eee491e22ebfe1e5cfcc97a4137cd70f092ce59144d81f8924a844de05ba8f5",
-                "sha256:68dbe41afd01b867894bbdfd54fa03f468cfa4f0086bfb4adcd8de8f24f3ee21"
+                "sha256:08c42bc535f9777eea1a599289d9433f081921f97887eaf6f559446b2a080374",
+                "sha256:5a4aff543ee860fbe40d743e556adf92ccd41b7df45697cae074afdf657056b9"
             ],
-            "markers": "sys_platform == 'win32'",
-            "version": "==2021.5"
+            "index": "pypi",
+            "version": "==6.0.0"
         }
     },
     "develop": {}
